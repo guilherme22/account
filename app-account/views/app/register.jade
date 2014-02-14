@@ -1,0 +1,15 @@
+extends ../login
+
+block content
+  .container
+    form(action="/register", method="post").form-horizontal.col-lg-4.col-lg-offset-4
+      .control-group
+        .controls
+          .form-group: .pull-right: h3(style='color:white;') Criar conta
+          .form-group: input(type='hidden', name='_csrf', value="#{csrf_token}")
+          .form-group: input.input-block-level.bordered-input(name="full_name", type='text', placeholder='Nome')
+          .form-group: input.input-block-level.bordered-input(name="email", type='text', placeholder='Email')
+          .form-group: input.input-block-level.bordered-input(name="password", type='password', placeholder='Password')
+          .form-group
+            .pull-right
+              input.btn.blue(type="submit", value="Criar")

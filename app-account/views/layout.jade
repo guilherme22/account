@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    - // predefined and preset configurations
+    include components/head/meta
+    include components/head/fonts
+    include components/head/stylesheets
+    include components/head/icons
+    include components/head/scripts
+    - // dynamic head content
+    block head
+  body
+    - // the markup for header
+    include components/header/navigation
+    include components/header/menu
+    block header
+    - // the markup for content 
+    include components/content/index
+    - // the markup for footer 
+    include components/footer/index
+    include components/footer/scripts

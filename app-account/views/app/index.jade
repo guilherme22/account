@@ -1,0 +1,13 @@
+extends ../login
+
+block content
+  .login-page: .login(style="display:block; overflow:visible;")
+    form(action="/login", method="post").form-horizontal
+      .row: h4.title Login / RoadApps
+      .control-group
+        .controls
+          .form-group: input.input-block-level.bordered-input(name="username", type='text', placeholder='Email')
+          .form-group: input.input-block-level.bordered-input(name="password", type='password', placeholder='Password')
+          .form-group
+            .pull-right
+              input.btn.blue(type="submit", value="Login")

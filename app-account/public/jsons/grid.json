@@ -1,0 +1,191 @@
+[
+    { "nome": "Guilherme Ribeiro",
+    "cpf": "039.214.404.32",
+    "inicioDaViagem": "8:00",
+    "regra_4horas": "3:23",
+    "regra_8horas": "8:24",
+    "almoco": true,
+    "tempoDeDescanso": false,
+    "horaExtra": true,
+    "horaExtraNoturna": false
+},
+{
+    "nome": "Marcos de Souza",
+    "cpf": "094.293.095.23",
+    "inicioDaViagem": "9:00",
+    "regra_4horas": "1:20",
+    "regra_8horas": "5:20",
+    "almoco": true,
+    "tempoDeDescanso": false,
+    "horaExtra": false,
+    "horaExtraNoturna": false
+}
+,
+{
+    "nome": "Iago Pereira",
+    "cpf": "093.493.109.21",
+    "inicioDaViagem": "9:00",
+    "regra_4horas": "2:22",
+    "regra_8horas": "9:48",
+    "almoco": true,
+    "tempoDeDescanso": false,
+    "horaExtra": true,
+    "horaExtraNoturna": false
+}
+    ,
+    {
+        "nome": "Robson Silva",
+        "cpf": "409.298.813.52",
+        "inicioDaViagem": "12:00",
+        "regra_4horas": "1:30",
+        "regra_8horas": "10:21",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Jorge Henrique",
+        "cpf": "892.323.982.55",
+        "inicioDaViagem": "11:00",
+        "regra_4horas": "3:45",
+        "regra_8horas": "8:44",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Ricardo José",
+        "cpf": "019.303.010.20",
+        "inicioDaViagem": "14:00",
+        "regra_4horas": "2:38",
+        "regra_8horas": "9:22",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Roberto Brito",
+        "cpf": "039.481.491.24",
+        "inicioDaViagem": "13:00",
+        "regra_4horas": "2:40",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": false,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Tiago Oliveira",
+        "cpf": "491.509.391.12",
+        "inicioDaViagem": "15:00",
+        "regra_4horas": "2:40",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Anderson Augusto",
+        "cpf": "309.391.305.43",
+        "inicioDaViagem": "16:00",
+        "regra_4horas": "2:30",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": false,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Gustavo Maciel",
+        "cpf": "504.309.120.22",
+        "inicioDaViagem": "9:30",
+        "regra_4horas": "2:30",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": false,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Henrique de Souza",
+        "cpf": "490.113.404.44",
+        "inicioDaViagem": "10:30",
+        "regra_4horas": "1:32",
+        "regra_8horas": "8:44",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Sebastião José",
+        "cpf": "592.791.204.55",
+        "inicioDaViagem": "7:00",
+        "regra_4horas": "1:10",
+        "regra_8horas": "9:38",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Pedro neto",
+        "cpf": "939.761.059.23",
+        "inicioDaViagem": "12:30",
+        "regra_4horas": "2:32",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": false,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Wallace Augusto",
+        "cpf": "958.023.985.33",
+        "inicioDaViagem": "14:30",
+        "regra_4horas": "0:58",
+        "regra_8horas": "8:53",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Marcos da Silva",
+        "cpf": "847.502.198.44",
+        "inicioDaViagem": "9:30",
+        "regra_4horas": "3:30",
+        "regra_8horas": "5:20",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": false,
+        "horaExtraNoturna": false
+    }
+    ,
+    {
+        "nome": "Maycon de belem",
+        "cpf": "509.198.922.44",
+        "inicioDaViagem": "8:00",
+        "regra_4horas": "0:22",
+        "regra_8horas": "9:22",
+        "almoco": true,
+        "tempoDeDescanso": false,
+        "horaExtra": true,
+        "horaExtraNoturna": false
+    }
+]

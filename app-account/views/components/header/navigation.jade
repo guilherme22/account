@@ -1,0 +1,75 @@
+#nvm.navbar.navbar-static-top
+    .navbar-inner
+        a.brand(href='/')
+          img(src='/images/logo.png', height='50', width='158', alt='Road Apps')
+        ul.nav()
+          li#menu-icon
+            a.menu-icon(href='#')
+              i.icon-reorder
+          li.dropdown
+            a.dropdown-toggle.menu-icon(href='#')
+              i.icon-user
+            ul.user.dropdown-menu
+              li
+                .container-fluid
+                  .row-fluid
+                    .span4
+                      img.profile(src='/images/flat_icons/support.png', alt='')
+                    .span8.details
+                      small
+                        | Bem-vindo&nbsp;
+                        a(href='#') #{context.user.name}
+
+                      ul.unstyled
+                        li
+                          a(href='#')
+                            small
+                              i.icon-comments.icon
+                              | 12 novos comentarios
+                        li
+                          a(href='#')
+                            small
+                              i.icon-calendar.icon
+                              | 6 novos eventos
+                        li
+                          a(href='#')
+                            small
+                              i.icon-bar-chart.icon
+                              | 2 novos relatorios
+
+                  .row-fluid.sales
+                    .span12.well
+                      .row-fluid
+                        .border-right.span6
+                          p.text-center
+                            a.btn.btn-small(href="/logout") Sair
+                        .span6
+                          p.text-center Usuários: 1267
+
+          li.dropdown
+            a.dropdown-toggle(href='#')
+              | Notificações
+              span.top-alert.vibrate
+                span.arrow
+                | 2
+
+            ul.dropdown-menu
+              li
+                a(href='#')
+                  p.padding
+                    img.pull-left.picture(src='/images/flat_icons/cone.png', width='30', alt='')
+                    small
+                      | JOSE PEREIRA DE SANTANA
+                      span.text-success &nbsp;(Em viagem há mais de 4h)
+              li
+                a(href='#')
+                  p.padding
+                    img.pull-left.picture(src='/images/flat_icons/cone.png', width='30', alt='')
+                    small
+                      | ANDRE LUIZ DE SOUZA TEIXO
+                      span.text-error &nbsp; (Há mais de 1h parado)
+                      br
+                      | OK
+        ul.nav.pull-right.search
+          form.nav-search(action='')
+            input(type='text')
